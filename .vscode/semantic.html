@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semantic Page</title>
+
+<style>
+  * {margin :0 ;padding :0; box-sizing:border-box}
+
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+  background-color: beige;
+  color: rgb(94, 107, 178);
+  padding: 21px;
+  text-align: center;
+}
+
+nav{
+  background-color: rgb(188, 234, 218);
+  padding:10px;
+  text-align: center;
+}
+
+nav a{
+  color: rgb(145, 126, 162);
+  margin:0 15px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+nav a:hover{
+  color: rgb(213, 180, 180);
+  margin: 0 10px;
+ text-decoration:underline ;
+
+}
+
+section{
+  paddling :45px;
+}
+
+#hero
+{
+  background-color: rgb(192, 230, 154);
+  text-align:center;
+
+}
+#hero h2{
+  font-size:30px;
+  margin-top: 8px;
+}
+#hero p
+{
+  font-size: 15px;
+  color: rgb(129, 151, 192);
+}
+
+#about 
+{
+  background-color:rgb(228, 205, 213) ;
+}
+#about img{
+  width:350px;
+  float:left;
+  margin-left: 15px;
+  border-radius: 20px;
+}
+
+article{
+  background-color: rgb(125, 124, 134);
+  border-left:4px solid;
+}
+
+  #contact { background-color: #ecf0f1; }
+        #contact form { max-width: 500px; }
+        #contact input, #contact textarea { width: 100%; padding: 10px; margin: 8px 0; border: 1px solid #e09494; border-radius: 4px; }
+        #contact button { background-color: #1262b1; color: white; padding: 10px 20px; border: none; border-radius: 6px; cursor: pointer; }
+        #contact button:hover { background-color: #72a4d5; }
+
+footer{
+  background-color: #72a4d5;
+  color: antiquewhite;
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+
+</style>
+
+
+
+
+
+</head>
+
+
+
+
+
+<body>
+  
+<header> 
+  <h1> Welcome to My Website</h1>
+  <p> Student | Learner |Explorer </p>
+</header>
+
+
+<nav> 
+  <a href="#hero">Home</a>
+  <a href="#about">About</a>
+  <a href="blog">Blog</a>
+</nav>
+
+<section id="hero">
+  <h2> Hello, I'm Lubaina Morshed</h2>
+  <p> I love to do CP</p>
+</section>
+
+<section id="about">
+  <h2>About Me</h2>
+  <img src ="" alt="">
+  <p> I am a Cse Student</p>
+  <br style ="clear:both;">
+</section>
+
+<section id="blog">
+        <h2>My Articles</h2>
+
+        <article>
+            <h3>Why I Love HTML</h3>
+            <p>HTML is the backbone of every website. Learning it was my first step into the world of web development.</p>
+        </article>
+ 
+        <article>
+       <h3>Getting Started with GitHub</h3>
+            <p>GitHub is a powerful tool for version control and collaboration. Every developer should know how to use it.</p>
+        </article>
+        </section>
+
+
+<section id="contact">
+
+      <h2>Contact Me</h2>
+        <form action="#" method="POST">
+
+          <label for="cname">Your Name:</label>
+            <input type="text" id="cname" name="cname" placeholder="Enter your name" required>
+
+            <label for="cemail">Your Email:</label>
+            <input type="email" id="cemail" name="cemail" placeholder="Enter your email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..."></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>    
+
+
+  <footer>
+        <p>&copy; 2024 Tuba. All Rights Reserved.</p>
+        <p>
+            <a href="mailto:tuba@email.com" style="color: #bdc3c7;">tuba@email.com</a> |
+            <a href="https://github.com" target="_blank" style="color: #bdc3c7;">GitHub</a>
+        </p>
+    </footer>
+
+</body>
+</html>

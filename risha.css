@@ -1,0 +1,24 @@
+
+*{
+ padding:0%;
+ margin:0%;
+
+}
+
+
+html,body{
+
+    height:100%;
+    width: 100%;
+}
+
+p
+{
+    width ="50%"
+    font-family:'Gill Sans';color:rgb(43, 43, 124); text-align: center; font-size: x-large; background-color: pink;
+}
+h1{
+    text-align: center;
+    width:100%;
+    color:rgb(158, 121, 66)
+}

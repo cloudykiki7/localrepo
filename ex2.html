@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration Form</title>
+
+
+</head>
+<body>
+  
+<h1> Student Registration Form</h1>
+
+<form action="#" method ="POST">
+
+  <h3> Personal Information</h3>
+  <label for="name"> Full Name :</label><br> 
+
+  <input type ="text" id ="name" name="name" placeholder="Enter your Name" required> <br> <br>
+</form>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Create password" required><br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob"><br><br>
+
+  <label for="phone">Phone Number:</label><br>
+        <input type="number" id="phone" name="phone" placeholder="Enter phone number"><br><br>
+
+<label>
+  Gender:
+</label><br>
+<input type="ratio" name="gender" value="male">Male
+
+  <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other<br><br>
+
+          <label for="course">Select Course:</label><br>
+        <select id="course" name="course">
+            <option value="">-- Choose Course --</option>
+            <option value="cs">Computer Science</option>
+            <option value="it">Information Technology</option>
+            <option value="ds">Data Science</option>
+            <option value="ai">Artificial Intelligence</option>
+        </select><br><br>
+        
+        <label>Interests : </label> <br>
+
+        <input type="checkbox" name="interest" value="coding">Coding
+
+        <input type = "checkbox"
+        name="interest" value="design">Design
+
+        <input type="checkbox" name="interest" value="research"> Research<br><br>
+
+
+        <h3> Enrolled Subjects</h3>
+        <table border="1" cellpadding ="8" cellspacing="0"></table>
+     <tr>
+                <th>Subject Code</th>
+                <th>Subject Name</th>
+                <th>Units</th>
+            </tr>
+            <tr>
+                <td>CS101</td>
+                <td>Introduction to Programming</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>CS102</td>
+                <td>Data Structures</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>CS103</td>
+                <td>Web Development</td>
+                <td>3</td>
+            </tr>
+        </table><br>
+
+        <button type="submit">Register Now</button>
+        <button type="reset">Clear Form</button>
+
+    </form>   
+</body>
+</html>
